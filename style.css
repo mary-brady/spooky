@@ -85,7 +85,7 @@ body {
     width: 60px;
     height: 30px;
     border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px
+    border-bottom-right-radius: 30px;
 }
 
 #spooky #body #mouth:before {
@@ -97,7 +97,7 @@ body {
     height: 10px;
 }
 
-#spooky #obdy #feet {
+#spooky #body #feet {
     position: absolute;
     display: flex;
     bottom: -18px;
@@ -127,8 +127,9 @@ body {
 
 @keyframes floaty {
     0%, 100% {
-        transform: translateY(0)
+        transform: translateY(0);
     }
+
     50% {
         transform: translateY(-20px);
     }
@@ -138,6 +139,7 @@ body {
     0%, 100% {
         transform: scale(1);
     }
+    
     50% {
         transform: scale(0.8)
     }
