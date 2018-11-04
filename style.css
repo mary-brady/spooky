@@ -42,8 +42,9 @@ body {
 
 #spooky #body:before,
 #spooky #body:after {
-    content: '';
+    content: ' ';
     position: absolute;
+    top: 130px;
     display: inline-block;
     width: 36px;
     height: 36px;
